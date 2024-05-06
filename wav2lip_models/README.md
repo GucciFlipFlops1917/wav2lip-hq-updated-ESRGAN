@@ -1,1 +1,0 @@
-Code in this folder is taken from the Wav2Lip repository.

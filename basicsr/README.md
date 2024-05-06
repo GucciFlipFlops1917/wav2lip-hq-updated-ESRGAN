@@ -1,1 +1,0 @@
-This folder is almost unmodified code from [BasicSR](https://github.com/xinntao/BasicSR.git) repository that provides solutions for image and video super resolution.
