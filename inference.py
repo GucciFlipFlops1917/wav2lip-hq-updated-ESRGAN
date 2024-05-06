@@ -726,7 +726,7 @@ def main():
                     p, last_mask = create_tracked_mask(p, cf)
                 else:
                     p, last_mask = create_mask(p, cf)
-
+            p = cv2.resize(p.astype(np.uint8), (x2 - x1, y2 - y1))
             f[y1:y2, x1:x2] = p
 
             if not g_colab:
